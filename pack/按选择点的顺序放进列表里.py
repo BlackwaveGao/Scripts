@@ -1,6 +1,6 @@
 import maya.cmds as cmds  
 import maya.mel as mel  
-##使用方：法点选第一个点 然后按住shift双击最后一个点会选中一排的点
+##使用方法：点选第一个点 然后按住shift双击最后一个点会选中一排的点
 ##执行脚本 也许 大概其 应该 差不多就会按照点ID排序的方式放进selected_points这个变量里了，不然maya总会进行一个从小到大的排序
 ##可能哪里会有bug，but我一个建模的就这样吧，感谢群里大佬提供了思路和脚本
 def select_and_add_vertices():  
